@@ -33,3 +33,4 @@ jobs:
         with:
           push: true
           tags: uyphong99/sample-app-kubernetes:latest
+          file: application-service/Dockerfile
