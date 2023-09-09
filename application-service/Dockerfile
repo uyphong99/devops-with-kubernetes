@@ -1,5 +1,5 @@
 # Use an official OpenJDK 17 runtime as the base image
-FROM openjdk:17
+FROM eclipse-temurin:17-jre-alpine
 
 RUN mkdir /app
 # Set the working directory in the container

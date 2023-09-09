@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871db999-84ba-4ec8-ab07-83bd72ff90a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-service/src/main/java/com/kubernetes/assignment/application/service/RandomStringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-service/src/main/java/com/kubernetes/assignment/application/service/scheduler/RandomStringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-service/src/main/java/com/kubernetes/assignment/application/service/scheduler/RandomStringOutputTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application-service" beforeDir="false" />
-    </list>
+    <list default="true" id="871db999-84ba-4ec8-ab07-83bd72ff90a8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693995448614</updated>
       <workItem from="1693995451121" duration="7196000" />
-      <workItem from="1694156810510" duration="4961000" />
+      <workItem from="1694156810510" duration="10593000" />
     </task>
     <servers />
   </component>
