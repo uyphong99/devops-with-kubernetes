@@ -23,13 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2V1EywbAx2sTu1YtKkvierqIM4W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,11 +53,28 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
     "spring.configuration.checksum": "246571e79ad43dc0b1c9d3fe158a9786",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.RandomStringApplication">
+  <component name="RunManager" selected="Application.RandomStringApplication">
+    <configuration name="RandomStringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kubernetes.assignment.application.service.RandomStringApplication" />
+      <module name="application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubernetes.assignment.application.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="application-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kubernetes.assignment.ApplicationService" />
@@ -84,7 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RandomStringApplication" />
+        <item itemvalue="Application.RandomStringApplication" />
       </list>
     </recent_temporary>
   </component>
