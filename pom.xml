@@ -12,6 +12,7 @@
     <modules>
         <module>infrastructure</module>
         <module>application-service</module>
+        <module>app-2</module>
     </modules>
 
     <parent>
