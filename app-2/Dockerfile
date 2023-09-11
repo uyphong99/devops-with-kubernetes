@@ -6,7 +6,7 @@ RUN mkdir /app
 WORKDIR /app
 
 # Copy your Java application JAR file into the container
-COPY target/application-service-1.0-SNAPSHOT.jar /app/application-service-1.0-SNAPSHOT.jar
+COPY target/appl-2-1.0-SNAPSHOT.jar /app/app-2-1.0-SNAPSHOT.jar
 
 # Specify the command to run your Java application
-CMD ["java", "-jar", "/app/application-service-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/app/app-2-1.0-SNAPSHOT.jar"]
