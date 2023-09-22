@@ -7,7 +7,7 @@ spec:
     - host: app1.local
       http:
         paths:
-          - path: /app1
+          - path: /
             pathType: Prefix
             backend:
               service:
