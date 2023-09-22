@@ -15,3 +15,5 @@ spec:
       containers:
         - name: log-output
           image: uyphong99/sample-app-kubernetes:latest
+          ports:
+            - containerPort: 8081
