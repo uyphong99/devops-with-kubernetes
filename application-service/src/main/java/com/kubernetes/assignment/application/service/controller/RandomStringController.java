@@ -14,7 +14,7 @@ public class RandomStringController {
     private RandomStringGenerator randomStringGenerator;
 
     @GetMapping("/app1/timestamp")
-    private String getCurrentTime() {
+    public String getCurrentTime() {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME);
         String randomString = randomStringGenerator.getRandomString();
         return (timestamp + ": " + randomString);
