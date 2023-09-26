@@ -4,17 +4,18 @@ import com.kubernetes.assignment.application.service.scheduler.RandomStringGener
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@Controller
+@RestController
 @AllArgsConstructor
 public class RandomStringController {
     private RandomStringGenerator randomStringGenerator;
 
-    @GetMapping("/app1/timestamp")
+    @RequestMapping("/app1/timestamp")
     public String getCurrentTime() {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME);
         String randomString = randomStringGenerator.getRandomString();
