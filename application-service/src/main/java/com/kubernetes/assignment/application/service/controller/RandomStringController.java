@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 public class RandomStringController {
     private RandomStringGenerator randomStringGenerator;
 
-    @RequestMapping("/app1/timestamp")
+    @GetMapping("/app1/timestamp")
     public String getCurrentTime() {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME);
         String randomString = randomStringGenerator.getRandomString();
